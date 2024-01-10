@@ -40,7 +40,7 @@ module.exports = {
     number: ["628222358226"]
   },
   daily_limit: {
-    free: infinity,
+    free: 999999999,
     premium: Infinity
   },
   react: {
