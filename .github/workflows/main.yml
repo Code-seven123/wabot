@@ -12,9 +12,5 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: 18
-      - name: install package
-        run: |
-          npm install
-      - name: run 
-        run: |
-          npm run start --omit=dev
+      - name: info
+        run: echo 'ok'
